@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #f3e6e3;
+      color: #5a4633;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: url('backgr.jpg'); /* Add your background image */
+      background-size: cover;
+      background-position: center;
+    }
+
+    .invitation-container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.35);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 90%;
+    }
+
+    .invitation-container h1 {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      color: #555;
+      font-family: 'Playfair Display', serif;
+      text-transform: uppercase;
+      font-weight:lighter;
+    }
+
+    /*.invitation-container p {*/
+    /*  font-size: 1.2em;*/
+    /*  margin-bottom: 15px;*/
+    /*}*/
+
+    .names {
+      font-size: 4em;
+      /*font-weight: bold;*/
+      color: #b08557;
+      margin-bottom: 20px;
+      font-family: 'Great Vibes', cursive;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .wedding-details {
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    .date-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .date-details {
+      display: flex;
+      align-items: center;
+    }
+
+    .weekday, .time {
+      font-family: 'Playfair Display', serif;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #5a4633;
+      width: 100px;  /* Adjust the width as necessary */
+    }
+
+    .weekday {
+      text-align: right;  /* Align text to the right */
+      margin-right: 20px;  /* Space between the weekday and the date */
+    }
+
+    .time {
+      text-align: left;  /* Align text to the left */
+      margin-left: 20px;  /* Space between the date and the time */
+    }
+
+    .day-month {
+      text-align: center;
+    }
+
+    .day {
+      font-family: 'Playfair Display', serif;
+      font-size: 4em;
+      font-weight: bold;
+      color: #b08557;  /* Gold or warm brown */
+      line-height: 1;
+    }
+
+    .month {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #5a4633;  /* Slightly darker brown */
+    }
+
+
+
+    .location {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    /*.btn-rsvp {*/
+    /*  background-color: #b76e79;*/
+    /*  color: white;*/
+    /*  padding: 15px 30px;*/
+    /*  text-decoration: none;*/
+    /*  font-size: 1.2em;*/
+    /*  border-radius: 30px;*/
+    /*  border: none;*/
+    /*  cursor: pointer;*/
+    /*  transition: background-color 0.3s;*/
+    /*}*/
+
+    /*.btn-rsvp:hover {*/
+    /*  background-color: #a55d64;*/
+    /*}*/
+    .contacts{
+      font-size: 0.9em;
+      margin-top: 15px;
+    }
+    .telegram-link {
+      color: #b08557;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      margin: 0;
+      font-size: 0.7em;
+    }
+
+    .telegram-link:hover {
+      color: #f4a261;
+    }
+
+    @media screen and (max-width: 480px) {
+      .invitation-container {
+        padding: 30px;
+        margin:30px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="invitation-container">
+  <h1>Please join us at<br>our wedding</h1>
+
+  <div class="names">
+    John <br>&<br>Jane
+  </div>
+
+  <p class="wedding-details">We can't wait to celebrate with you!</p>
+
+  <div class="date-container">
+    <div class="date-details">
+      <div class="weekday">Saturday</div>
+      <div class="day-month">
+        <div class="day">24</div>
+        <div class="month">May</div>
+      </div>
+      <div class="time">8:00 AM</div>
+    </div>
+  </div>
+
+
+  <p class="location">Location: <br>Garden Venue, Dream City</p>
+
+  <p class="contacts">Если у вас есть вопросы, свяжитесь с нами в Telegram:</p>
+  <p><a href="https://t.me/DinaraSuniyatullina" class="telegram-link" target="_blank">@DinaraSuniyatullina</a><br>
+    <a href="https://t.me/RINAT152152" class="telegram-link" target="_blank">@RINAT152152</a>
+  </p>
+</div>
+</body>
+</html>
